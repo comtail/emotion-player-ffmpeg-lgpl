@@ -18,8 +18,15 @@ libraries (dynamic linking).
 ABIs: `armeabi-v7a`, `arm64-v8a`, `x86_64`; Android API level 24.
 FFmpeg is configured **without** `--enable-gpl`, `--enable-nonfree` and `--enable-version3`
 (`CONFIG_GPL 0`, `CONFIG_NONFREE 0`, `CONFIG_VERSION3 0`); only the audio decoders
-`mp3 mp2 ac3 eac3 dca truehd mlp` are enabled. Exact configure line and SHA-256 of the shipped
+`mp3 mp2 ac3 eac3 truehd mlp` are enabled. Exact configure line and SHA-256 of the shipped
 binaries: `build/BUILD_PROVENANCE.txt`.
+
+## Changes
+
+| Date | App libraries |
+|---|---|
+| 2026-10-18 | DTS (`dca`) decoder removed; all four libraries rebuilt (new SHA-256 values in `build/BUILD_PROVENANCE.txt`) |
+| 2026-10-18 | First published version |
 
 ## Contents
 

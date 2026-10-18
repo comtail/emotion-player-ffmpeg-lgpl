@@ -22,7 +22,8 @@ TC=$NDK/toolchains/llvm/prebuilt/linux-x86_64/bin
 mkdir -p "$OUT"
 tar -xJf "$REPO"/ffmpeg/ffmpeg-*.tar.xz -C "$WORK"
 SRC=$(ls -d "$WORK"/ffmpeg-*)
-DEC="mp3 mp2 ac3 eac3 dca truehd mlp"
+# The DTS (dca) decoder is not included since 2026-10-18.
+DEC="mp3 mp2 ac3 eac3 truehd mlp"
 COMMON="--target-os=android --disable-static --enable-shared --disable-doc --disable-programs --disable-everything
  --disable-avdevice --disable-avformat --disable-swscale --disable-postproc --disable-avfilter --disable-symver
  --enable-swresample --disable-v4l2-m2m --disable-vulkan"

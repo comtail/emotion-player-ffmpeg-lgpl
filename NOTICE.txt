@@ -6,7 +6,7 @@ Third-party notices for the audio decoders of EMOTION Player
    Copyright (c) the FFmpeg developers. FFmpeg is a trademark of Fabrice Bellard.
    Licensed under the GNU Lesser General Public License version 2.1 or later
    (see FFmpeg-LGPL-2.1.txt). Built without --enable-gpl, --enable-nonfree and
-   --enable-version3; only the audio decoders mp3/mp2, ac3, eac3, dca, truehd and
+   --enable-version3; only the audio decoders mp3/mp2, ac3, eac3, truehd and
    mlp are enabled. The libraries are shipped as separate shared libraries
    (libavcodec.so, libavutil.so, libswresample.so) and may be replaced by the user.
    Complete corresponding source code and build scripts: see the source offer
