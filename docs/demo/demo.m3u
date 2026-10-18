@@ -1,0 +1,121 @@
+#EXTM3U url-tvg="https://comtail.github.io/emotion-player-ffmpeg-lgpl/demo/epg.xml"
+#EXTINF:-1 tvg-id="demo0" tvg-name="Aurora News" tvg-logo="https://comtail.github.io/emotion-player-ffmpeg-lgpl/demo/logos/demo0.png" group-title="Nachrichten",Aurora News
+https://comtail.github.io/emotion-player-ffmpeg-lgpl/demo/hls/v1/index.m3u8
+#EXTINF:-1 tvg-id="demo1" tvg-name="Polarlicht 24" tvg-logo="https://comtail.github.io/emotion-player-ffmpeg-lgpl/demo/logos/demo1.png" group-title="Nachrichten",Polarlicht 24
+https://comtail.github.io/emotion-player-ffmpeg-lgpl/demo/hls/v2/index.m3u8
+#EXTINF:-1 tvg-id="demo2" tvg-name="Weitblick Info" tvg-logo="https://comtail.github.io/emotion-player-ffmpeg-lgpl/demo/logos/demo2.png" group-title="Nachrichten",Weitblick Info
+https://comtail.github.io/emotion-player-ffmpeg-lgpl/demo/hls/v3/index.m3u8
+#EXTINF:-1 tvg-id="demo3" tvg-name="Nordkurier TV" tvg-logo="https://comtail.github.io/emotion-player-ffmpeg-lgpl/demo/logos/demo3.png" group-title="Nachrichten",Nordkurier TV
+https://comtail.github.io/emotion-player-ffmpeg-lgpl/demo/hls/v4/index.m3u8
+#EXTINF:-1 tvg-id="demo4" tvg-name="Arena Eins" tvg-logo="https://comtail.github.io/emotion-player-ffmpeg-lgpl/demo/logos/demo4.png" group-title="Sport",Arena Eins
+https://comtail.github.io/emotion-player-ffmpeg-lgpl/demo/hls/v1/index.m3u8
+#EXTINF:-1 tvg-id="demo5" tvg-name="Arena Zwei" tvg-logo="https://comtail.github.io/emotion-player-ffmpeg-lgpl/demo/logos/demo5.png" group-title="Sport",Arena Zwei
+https://comtail.github.io/emotion-player-ffmpeg-lgpl/demo/hls/v2/index.m3u8
+#EXTINF:-1 tvg-id="demo6" tvg-name="Sprint HD" tvg-logo="https://comtail.github.io/emotion-player-ffmpeg-lgpl/demo/logos/demo6.png" group-title="Sport",Sprint HD
+https://comtail.github.io/emotion-player-ffmpeg-lgpl/demo/hls/v3/index.m3u8
+#EXTINF:-1 tvg-id="demo7" tvg-name="Gipfelsport" tvg-logo="https://comtail.github.io/emotion-player-ffmpeg-lgpl/demo/logos/demo7.png" group-title="Sport",Gipfelsport
+https://comtail.github.io/emotion-player-ffmpeg-lgpl/demo/hls/v4/index.m3u8
+#EXTINF:-1 tvg-id="demo8" tvg-name="Wissensraum" tvg-logo="https://comtail.github.io/emotion-player-ffmpeg-lgpl/demo/logos/demo8.png" group-title="Dokumentation",Wissensraum
+https://comtail.github.io/emotion-player-ffmpeg-lgpl/demo/hls/v1/index.m3u8
+#EXTINF:-1 tvg-id="demo9" tvg-name="Terra Viva" tvg-logo="https://comtail.github.io/emotion-player-ffmpeg-lgpl/demo/logos/demo9.png" group-title="Dokumentation",Terra Viva
+https://comtail.github.io/emotion-player-ffmpeg-lgpl/demo/hls/v2/index.m3u8
+#EXTINF:-1 tvg-id="demo10" tvg-name="Ozeanblau" tvg-logo="https://comtail.github.io/emotion-player-ffmpeg-lgpl/demo/logos/demo10.png" group-title="Dokumentation",Ozeanblau
+https://comtail.github.io/emotion-player-ffmpeg-lgpl/demo/hls/v3/index.m3u8
+#EXTINF:-1 tvg-id="demo11" tvg-name="Sternwarte TV" tvg-logo="https://comtail.github.io/emotion-player-ffmpeg-lgpl/demo/logos/demo11.png" group-title="Dokumentation",Sternwarte TV
+https://comtail.github.io/emotion-player-ffmpeg-lgpl/demo/hls/v4/index.m3u8
+#EXTINF:-1 tvg-id="demo12" tvg-name="Pixelkids" tvg-logo="https://comtail.github.io/emotion-player-ffmpeg-lgpl/demo/logos/demo12.png" group-title="Kinder",Pixelkids
+https://comtail.github.io/emotion-player-ffmpeg-lgpl/demo/hls/v1/index.m3u8
+#EXTINF:-1 tvg-id="demo13" tvg-name="Wolkenland" tvg-logo="https://comtail.github.io/emotion-player-ffmpeg-lgpl/demo/logos/demo13.png" group-title="Kinder",Wolkenland
+https://comtail.github.io/emotion-player-ffmpeg-lgpl/demo/hls/v2/index.m3u8
+#EXTINF:-1 tvg-id="demo14" tvg-name="Kleine Entdecker" tvg-logo="https://comtail.github.io/emotion-player-ffmpeg-lgpl/demo/logos/demo14.png" group-title="Kinder",Kleine Entdecker
+https://comtail.github.io/emotion-player-ffmpeg-lgpl/demo/hls/v3/index.m3u8
+#EXTINF:-1 tvg-id="demo15" tvg-name="Klangwerk" tvg-logo="https://comtail.github.io/emotion-player-ffmpeg-lgpl/demo/logos/demo15.png" group-title="Musik",Klangwerk
+https://comtail.github.io/emotion-player-ffmpeg-lgpl/demo/hls/v4/index.m3u8
+#EXTINF:-1 tvg-id="demo16" tvg-name="Neon Beats" tvg-logo="https://comtail.github.io/emotion-player-ffmpeg-lgpl/demo/logos/demo16.png" group-title="Musik",Neon Beats
+https://comtail.github.io/emotion-player-ffmpeg-lgpl/demo/hls/v1/index.m3u8
+#EXTINF:-1 tvg-id="demo17" tvg-name="Lumen Musik" tvg-logo="https://comtail.github.io/emotion-player-ffmpeg-lgpl/demo/logos/demo17.png" group-title="Musik",Lumen Musik
+https://comtail.github.io/emotion-player-ffmpeg-lgpl/demo/hls/v2/index.m3u8
+#EXTINF:-1 tvg-id="demo18" tvg-name="Horizonte TV" tvg-logo="https://comtail.github.io/emotion-player-ffmpeg-lgpl/demo/logos/demo18.png" group-title="Unterhaltung",Horizonte TV
+https://comtail.github.io/emotion-player-ffmpeg-lgpl/demo/hls/v3/index.m3u8
+#EXTINF:-1 tvg-id="demo19" tvg-name="Abendrot" tvg-logo="https://comtail.github.io/emotion-player-ffmpeg-lgpl/demo/logos/demo19.png" group-title="Unterhaltung",Abendrot
+https://comtail.github.io/emotion-player-ffmpeg-lgpl/demo/hls/v4/index.m3u8
+#EXTINF:-1 tvg-id="demo20" tvg-name="Lichtblick HD" tvg-logo="https://comtail.github.io/emotion-player-ffmpeg-lgpl/demo/logos/demo20.png" group-title="Unterhaltung",Lichtblick HD
+https://comtail.github.io/emotion-player-ffmpeg-lgpl/demo/hls/v1/index.m3u8
+#EXTINF:-1 tvg-id="demo21" tvg-name="Kanal Mosaik" tvg-logo="https://comtail.github.io/emotion-player-ffmpeg-lgpl/demo/logos/demo21.png" group-title="Unterhaltung",Kanal Mosaik
+https://comtail.github.io/emotion-player-ffmpeg-lgpl/demo/hls/v2/index.m3u8
+#EXTINF:-1 tvg-logo="https://comtail.github.io/emotion-player-ffmpeg-lgpl/demo/art/der_stille_fjord_poster.jpg" group-title="Filme Drama",Der stille Fjord (2024)
+https://comtail.github.io/emotion-player-ffmpeg-lgpl/demo/vod/film1.mp4
+#EXTINF:-1 tvg-logo="https://comtail.github.io/emotion-player-ffmpeg-lgpl/demo/art/neonhafen_poster.jpg" group-title="Filme Drama",Neonhafen (2023)
+https://comtail.github.io/emotion-player-ffmpeg-lgpl/demo/vod/film2.mp4
+#EXTINF:-1 tvg-logo="https://comtail.github.io/emotion-player-ffmpeg-lgpl/demo/art/sternenstaub_poster.jpg" group-title="Filme Drama",Sternenstaub (2025)
+https://comtail.github.io/emotion-player-ffmpeg-lgpl/demo/vod/film3.mp4
+#EXTINF:-1 tvg-logo="https://comtail.github.io/emotion-player-ffmpeg-lgpl/demo/art/die_letzte_welle_poster.jpg" group-title="Filme Drama",Die letzte Welle (2022)
+https://comtail.github.io/emotion-player-ffmpeg-lgpl/demo/vod/film4.mp4
+#EXTINF:-1 tvg-logo="https://comtail.github.io/emotion-player-ffmpeg-lgpl/demo/art/glasgarten_poster.jpg" group-title="Filme Drama",Glasgarten (2024)
+https://comtail.github.io/emotion-player-ffmpeg-lgpl/demo/vod/film1.mp4
+#EXTINF:-1 tvg-logo="https://comtail.github.io/emotion-player-ffmpeg-lgpl/demo/art/mitternachtsexpress_poster.jpg" group-title="Filme Drama",Mitternachtsexpress (2023)
+https://comtail.github.io/emotion-player-ffmpeg-lgpl/demo/vod/film2.mp4
+#EXTINF:-1 tvg-logo="https://comtail.github.io/emotion-player-ffmpeg-lgpl/demo/art/das_leuchtfeuer_poster.jpg" group-title="Filme Drama",Das Leuchtfeuer (2021)
+https://comtail.github.io/emotion-player-ffmpeg-lgpl/demo/vod/film3.mp4
+#EXTINF:-1 tvg-logo="https://comtail.github.io/emotion-player-ffmpeg-lgpl/demo/art/kupferstadt_poster.jpg" group-title="Filme Drama",Kupferstadt (2025)
+https://comtail.github.io/emotion-player-ffmpeg-lgpl/demo/vod/film4.mp4
+#EXTINF:-1 tvg-logo="https://comtail.github.io/emotion-player-ffmpeg-lgpl/demo/art/hafenlichter_poster.jpg" group-title="Serien",Hafenlichter S01E01
+https://comtail.github.io/emotion-player-ffmpeg-lgpl/demo/vod/film2.mp4
+#EXTINF:-1 tvg-logo="https://comtail.github.io/emotion-player-ffmpeg-lgpl/demo/art/hafenlichter_poster.jpg" group-title="Serien",Hafenlichter S01E02
+https://comtail.github.io/emotion-player-ffmpeg-lgpl/demo/vod/film3.mp4
+#EXTINF:-1 tvg-logo="https://comtail.github.io/emotion-player-ffmpeg-lgpl/demo/art/hafenlichter_poster.jpg" group-title="Serien",Hafenlichter S01E03
+https://comtail.github.io/emotion-player-ffmpeg-lgpl/demo/vod/film4.mp4
+#EXTINF:-1 tvg-logo="https://comtail.github.io/emotion-player-ffmpeg-lgpl/demo/art/hafenlichter_poster.jpg" group-title="Serien",Hafenlichter S01E04
+https://comtail.github.io/emotion-player-ffmpeg-lgpl/demo/vod/film1.mp4
+#EXTINF:-1 tvg-logo="https://comtail.github.io/emotion-player-ffmpeg-lgpl/demo/art/hafenlichter_poster.jpg" group-title="Serien",Hafenlichter S01E05
+https://comtail.github.io/emotion-player-ffmpeg-lgpl/demo/vod/film2.mp4
+#EXTINF:-1 tvg-logo="https://comtail.github.io/emotion-player-ffmpeg-lgpl/demo/art/hafenlichter_poster.jpg" group-title="Serien",Hafenlichter S01E06
+https://comtail.github.io/emotion-player-ffmpeg-lgpl/demo/vod/film3.mp4
+#EXTINF:-1 tvg-logo="https://comtail.github.io/emotion-player-ffmpeg-lgpl/demo/art/hafenlichter_poster.jpg" group-title="Serien",Hafenlichter S02E01
+https://comtail.github.io/emotion-player-ffmpeg-lgpl/demo/vod/film2.mp4
+#EXTINF:-1 tvg-logo="https://comtail.github.io/emotion-player-ffmpeg-lgpl/demo/art/hafenlichter_poster.jpg" group-title="Serien",Hafenlichter S02E02
+https://comtail.github.io/emotion-player-ffmpeg-lgpl/demo/vod/film3.mp4
+#EXTINF:-1 tvg-logo="https://comtail.github.io/emotion-player-ffmpeg-lgpl/demo/art/hafenlichter_poster.jpg" group-title="Serien",Hafenlichter S02E03
+https://comtail.github.io/emotion-player-ffmpeg-lgpl/demo/vod/film4.mp4
+#EXTINF:-1 tvg-logo="https://comtail.github.io/emotion-player-ffmpeg-lgpl/demo/art/hafenlichter_poster.jpg" group-title="Serien",Hafenlichter S02E04
+https://comtail.github.io/emotion-player-ffmpeg-lgpl/demo/vod/film1.mp4
+#EXTINF:-1 tvg-logo="https://comtail.github.io/emotion-player-ffmpeg-lgpl/demo/art/hafenlichter_poster.jpg" group-title="Serien",Hafenlichter S02E05
+https://comtail.github.io/emotion-player-ffmpeg-lgpl/demo/vod/film2.mp4
+#EXTINF:-1 tvg-logo="https://comtail.github.io/emotion-player-ffmpeg-lgpl/demo/art/hafenlichter_poster.jpg" group-title="Serien",Hafenlichter S02E06
+https://comtail.github.io/emotion-player-ffmpeg-lgpl/demo/vod/film3.mp4
+#EXTINF:-1 tvg-logo="https://comtail.github.io/emotion-player-ffmpeg-lgpl/demo/art/die_nordstation_poster.jpg" group-title="Serien",Die Nordstation S01E01
+https://comtail.github.io/emotion-player-ffmpeg-lgpl/demo/vod/film3.mp4
+#EXTINF:-1 tvg-logo="https://comtail.github.io/emotion-player-ffmpeg-lgpl/demo/art/die_nordstation_poster.jpg" group-title="Serien",Die Nordstation S01E02
+https://comtail.github.io/emotion-player-ffmpeg-lgpl/demo/vod/film4.mp4
+#EXTINF:-1 tvg-logo="https://comtail.github.io/emotion-player-ffmpeg-lgpl/demo/art/die_nordstation_poster.jpg" group-title="Serien",Die Nordstation S01E03
+https://comtail.github.io/emotion-player-ffmpeg-lgpl/demo/vod/film1.mp4
+#EXTINF:-1 tvg-logo="https://comtail.github.io/emotion-player-ffmpeg-lgpl/demo/art/die_nordstation_poster.jpg" group-title="Serien",Die Nordstation S01E04
+https://comtail.github.io/emotion-player-ffmpeg-lgpl/demo/vod/film2.mp4
+#EXTINF:-1 tvg-logo="https://comtail.github.io/emotion-player-ffmpeg-lgpl/demo/art/die_nordstation_poster.jpg" group-title="Serien",Die Nordstation S01E05
+https://comtail.github.io/emotion-player-ffmpeg-lgpl/demo/vod/film3.mp4
+#EXTINF:-1 tvg-logo="https://comtail.github.io/emotion-player-ffmpeg-lgpl/demo/art/die_nordstation_poster.jpg" group-title="Serien",Die Nordstation S01E06
+https://comtail.github.io/emotion-player-ffmpeg-lgpl/demo/vod/film4.mp4
+#EXTINF:-1 tvg-logo="https://comtail.github.io/emotion-player-ffmpeg-lgpl/demo/art/die_nordstation_poster.jpg" group-title="Serien",Die Nordstation S01E07
+https://comtail.github.io/emotion-player-ffmpeg-lgpl/demo/vod/film1.mp4
+#EXTINF:-1 tvg-logo="https://comtail.github.io/emotion-player-ffmpeg-lgpl/demo/art/die_nordstation_poster.jpg" group-title="Serien",Die Nordstation S01E08
+https://comtail.github.io/emotion-player-ffmpeg-lgpl/demo/vod/film2.mp4
+#EXTINF:-1 tvg-logo="https://comtail.github.io/emotion-player-ffmpeg-lgpl/demo/art/zeitfenster_poster.jpg" group-title="Serien",Zeitfenster S01E01
+https://comtail.github.io/emotion-player-ffmpeg-lgpl/demo/vod/film4.mp4
+#EXTINF:-1 tvg-logo="https://comtail.github.io/emotion-player-ffmpeg-lgpl/demo/art/zeitfenster_poster.jpg" group-title="Serien",Zeitfenster S01E02
+https://comtail.github.io/emotion-player-ffmpeg-lgpl/demo/vod/film1.mp4
+#EXTINF:-1 tvg-logo="https://comtail.github.io/emotion-player-ffmpeg-lgpl/demo/art/zeitfenster_poster.jpg" group-title="Serien",Zeitfenster S01E03
+https://comtail.github.io/emotion-player-ffmpeg-lgpl/demo/vod/film2.mp4
+#EXTINF:-1 tvg-logo="https://comtail.github.io/emotion-player-ffmpeg-lgpl/demo/art/zeitfenster_poster.jpg" group-title="Serien",Zeitfenster S01E04
+https://comtail.github.io/emotion-player-ffmpeg-lgpl/demo/vod/film3.mp4
+#EXTINF:-1 tvg-logo="https://comtail.github.io/emotion-player-ffmpeg-lgpl/demo/art/zeitfenster_poster.jpg" group-title="Serien",Zeitfenster S01E05
+https://comtail.github.io/emotion-player-ffmpeg-lgpl/demo/vod/film4.mp4
+#EXTINF:-1 tvg-logo="https://comtail.github.io/emotion-player-ffmpeg-lgpl/demo/art/zeitfenster_poster.jpg" group-title="Serien",Zeitfenster S02E01
+https://comtail.github.io/emotion-player-ffmpeg-lgpl/demo/vod/film4.mp4
+#EXTINF:-1 tvg-logo="https://comtail.github.io/emotion-player-ffmpeg-lgpl/demo/art/zeitfenster_poster.jpg" group-title="Serien",Zeitfenster S02E02
+https://comtail.github.io/emotion-player-ffmpeg-lgpl/demo/vod/film1.mp4
+#EXTINF:-1 tvg-logo="https://comtail.github.io/emotion-player-ffmpeg-lgpl/demo/art/zeitfenster_poster.jpg" group-title="Serien",Zeitfenster S02E03
+https://comtail.github.io/emotion-player-ffmpeg-lgpl/demo/vod/film2.mp4
+#EXTINF:-1 tvg-logo="https://comtail.github.io/emotion-player-ffmpeg-lgpl/demo/art/zeitfenster_poster.jpg" group-title="Serien",Zeitfenster S02E04
+https://comtail.github.io/emotion-player-ffmpeg-lgpl/demo/vod/film3.mp4
+#EXTINF:-1 tvg-logo="https://comtail.github.io/emotion-player-ffmpeg-lgpl/demo/art/zeitfenster_poster.jpg" group-title="Serien",Zeitfenster S02E05
+https://comtail.github.io/emotion-player-ffmpeg-lgpl/demo/vod/film4.mp4
