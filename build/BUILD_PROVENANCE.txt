@@ -1,0 +1,21 @@
+Shipped FFmpeg libraries of EMOTION Player – provenance
+Produced by: build/build.sh of this repository (bit-identical when rebuilt with Android NDK r27c)
+FFmpeg: branch release/6.0, commit b37bf81a7a9782438e4fe06a249329e279694494 (source: ffmpeg/ffmpeg-b37bf81a7a.tar.xz, unmodified)
+AndroidX Media3 decoder_ffmpeg (JNI wrapper + Java classes): commit 8c6678b657ede1e7883fc164ef73ed483c7796c3 (Media3 1.11.1)
+NDK: r27c (clang 18.0.3); API level 24; ABIs: armeabi-v7a arm64-v8a x86_64
+Decoders enabled: mp3 mp2 ac3 eac3 dca truehd mlp (everything else disabled)
+Licence configuration: #define CONFIG_GPL 0 #define CONFIG_NONFREE 0 #define CONFIG_VERSION3 0 
+Linking: FFmpeg as separate shared libraries (libavutil.so, libswresample.so, libavcodec.so); libffmpegJNI.so links dynamically
+SHA-256 of the shipped files (app module media3-ffmpeg-decoder/src/main/jniLibs):
+aa95da1f32c2e749310bd60fba017e34c92076f4700485a6e1ca94be337dbf7f  arm64-v8a/libavcodec.so
+fd507c2b01158c17ae7865cc8831108041afcef9c3471241c4da0035681436c7  arm64-v8a/libavutil.so
+49ab7efd736361873023a775e7ba31550c2525fc1d61b78254d476b1c54500e3  arm64-v8a/libffmpegJNI.so
+6dd04b0eead6a721bb836a9d09145a1644a679255eb4e6300805402f212896b6  arm64-v8a/libswresample.so
+7a9d34f935b7c8f4ab3efced90aecd3a4e64b8da96762a386453c43c72b19238  armeabi-v7a/libavcodec.so
+6501668eac09e08dfe5d1331f9629c3e400ddedd535736796c351c2b75b22b38  armeabi-v7a/libavutil.so
+5390f87eabee52accfedf0dad6275558743c1dceae9783540c31b73fdf556711  armeabi-v7a/libffmpegJNI.so
+27fae0eb2cd13b65e780086ba9fbed22d5c903193c8cde9f847ecd3d44b55532  armeabi-v7a/libswresample.so
+ff4fbc08977577647bf981c8dc64313be1555e6cb90e96e557d061d5018a7ed5  x86_64/libavcodec.so
+f9860c0b0723533a08eef0d4c8e5fa05f3d9aa41ef8db8b73bc3e5fe3173a62c  x86_64/libavutil.so
+126941a9b62c19609feec5adbcafd17cd4c2adf1df7b3d161e23f2018b4f2b3d  x86_64/libffmpegJNI.so
+541d27521ce9819f96ecdca4f446ab68518690725113914e9c05637fe0e88edf  x86_64/libswresample.so

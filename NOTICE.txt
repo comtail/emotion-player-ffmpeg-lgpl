@@ -1,0 +1,36 @@
+Third-party notices for the audio decoders of EMOTION Player
+=============================================================
+
+1) FFmpeg (libavcodec, libavutil, libswresample) – version 6.0, git commit
+   b37bf81a7a9782438e4fe06a249329e279694494 (branch release/6.0), unmodified.
+   Copyright (c) the FFmpeg developers. FFmpeg is a trademark of Fabrice Bellard.
+   Licensed under the GNU Lesser General Public License version 2.1 or later
+   (see FFmpeg-LGPL-2.1.txt). Built without --enable-gpl, --enable-nonfree and
+   --enable-version3; only the audio decoders mp3/mp2, ac3, eac3, dca, truehd and
+   mlp are enabled. The libraries are shipped as separate shared libraries
+   (libavcodec.so, libavutil.so, libswresample.so) and may be replaced by the user.
+   Complete corresponding source code and build scripts: see the source offer
+   in the app's licence screen.
+
+   Parts of libavutil (avsscanf.c) are derived from musl libc:
+     Copyright (c) 2005-2014 Rich Felker, et al.
+     Permission is hereby granted, free of charge, to any person obtaining a copy
+     of this software and associated documentation files (the "Software"), to deal
+     in the Software without restriction, including without limitation the rights
+     to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+     copies of the Software, and to permit persons to whom the Software is
+     furnished to do so, subject to the following conditions:
+     The above copyright notice and this permission notice shall be included in
+     all copies or substantial portions of the Software.
+     THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+     IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+     FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+     AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+     LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+     OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+     SOFTWARE.
+
+2) AndroidX Media3 decoder_ffmpeg (Java classes and JNI wrapper libffmpegJNI.so)
+   Copyright (C) The Android Open Source Project. Licensed under the Apache
+   License, Version 2.0 (https://www.apache.org/licenses/LICENSE-2.0).
+   The JNI wrapper's CMake configuration was modified to link FFmpeg dynamically.
