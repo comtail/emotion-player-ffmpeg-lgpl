@@ -12,7 +12,8 @@ libraries, we offer to provide any third party, on request, a copy of the comple
 and build scripts for that version, free of charge by download link or e-mail (or, on request, on a physical
 medium for no more than the cost of physically performing this distribution).
 
-Requests: **https://github.com/comtail/emotion-player-ffmpeg-lgpl/issues**
+Requests (no account needed): **ComTail Computer, Kaan Acikgöz, Bahnhofstraße 35, 86381 Krumbach, Germany**
+· e-mail **info@comtail.de** · or https://github.com/comtail/emotion-player-ffmpeg-lgpl/issues
 Please state the app version (Settings → Information).
 
 **Deutsch**
@@ -27,5 +28,6 @@ diesen Bibliotheken jedem Dritten an, auf Anfrage eine Kopie des vollständigen 
 Build-Skripte für diese Version kostenlos per Download-Link oder E-Mail bereitzustellen (auf Wunsch auf einem
 physischen Datenträger zu höchstens den Kosten der physischen Bereitstellung).
 
-Anfragen an: **https://github.com/comtail/emotion-player-ffmpeg-lgpl/issues**
+Anfragen (ohne Konto möglich): **ComTail Computer, Kaan Acikgöz, Bahnhofstraße 35, 86381 Krumbach**
+· E-Mail **info@comtail.de** · oder https://github.com/comtail/emotion-player-ffmpeg-lgpl/issues
 Bitte die App-Version angeben (Einstellungen → Informationen).
