@@ -1,7 +1,7 @@
 # EMOTION Player – FFmpeg (LGPL) corresponding source
 
 This repository contains the **complete corresponding source code** of the LGPL-licensed FFmpeg libraries
-that are shipped with the Android app **EMOTION Player**, together with the build scripts and licence texts
+that are shipped with the Android apps **EMOTION Player** (phone `de.emotionplayer.app` and Android TV `de.emotionplayer.tv`, identical libraries), together with the build scripts and licence texts
 needed to rebuild and replace them. It does **not** contain, and does not need to contain, the source code
 of the EMOTION Player app itself: the app uses these libraries only at run time through separate shared
 libraries (dynamic linking).
@@ -70,7 +70,7 @@ The app does not verify or block replaced libraries.
 
 ## Deutsch
 
-Dieses Repository enthält den **vollständigen Quellcode** der mit der Android-App **EMOTION Player**
+Dieses Repository enthält den **vollständigen Quellcode** der mit den Android-Apps **EMOTION Player** (Handy und Android TV)
 ausgelieferten FFmpeg-Bibliotheken (LGPL-2.1-or-later) sowie Build-Skripte und Lizenztexte, um sie neu zu
 bauen und in der App zu ersetzen. Der Quellcode der App selbst ist nicht enthalten und nicht erforderlich,
 da die App die Bibliotheken nur zur Laufzeit als getrennte Shared Libraries verwendet.
