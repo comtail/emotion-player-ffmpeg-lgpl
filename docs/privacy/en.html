@@ -17,29 +17,36 @@ h1{font-size:1.8rem;margin:0 0 .3rem}h2{font-size:1.1rem;margin:1.8rem 0 .4rem}
 <main>
 <a class="lang" href="index.html">Deutsch</a>
 <h1>Privacy policy</h1>
-<p class="note">EMOTION Player for Android phones, tablets and TV · Effective date: October 18, 2026</p>
+<p class="note">EMOTION Player for Android phones, tablets and TV and for Samsung Smart TV · Effective date: October 26, 2026</p>
 <h2>1. Controller</h2>
 <p>Corevant Software, sole proprietor Kaan Acikgöz<br>Bahnhofstraße 35, 86381 Krumbach, Germany<br>Email: info@corevant.de<br>Phone: +49 (0)176 21767780</p>
 <h2>2. Locally processed information</h2>
-<p>EMOTION Player plays media from sources you add, such as M3U playlists and Xtream-compatible services. Data processed on your device may include source URLs, login credentials, media catalogues, programme guides, artwork, favourites, playback progress and preferences.</p>
+<p>EMOTION Player plays media from sources you add, such as M3U playlists, Xtream-compatible services or your own Enigma2 (OpenWebif) satellite receiver. Data processed on your device may include source URLs, login credentials, media catalogues, programme guides, artwork, favourites, playback progress and preferences.</p>
 <p>According to the current technical project description, credentials are encrypted locally. The exact implementation, exclusions from device backups and deletion controls must be verified against the final distributed build.</p>
+<p>In the Samsung Smart TV (Tizen) app, credentials are stored in the app’s private storage on the TV, which other apps cannot access. They are not additionally encrypted there because the platform provides no suitable interface for this.</p>
 <h2>3. Connections to third-party sources</h2>
 <p>The app connects to servers you specify or which are referenced by your sources to retrieve playlists, media, streams, artwork and programme guides. These servers may receive your IP address, requested URLs and any credentials needed for authentication. Their operators are independently responsible for their own data processing. Unencrypted HTTP connections may expose information, including credentials, in transit.</p>
+<p><strong>Satellite receiver (Enigma2):</strong> If you add a receiver, the app connects directly to the address you enter, usually in your home network, to retrieve channel lists, programme information, channel logos, recordings and streams, and sends any credentials you entered to the receiver. No Corevant Software server is involved.</p>
 <p><strong>Sample content (optional):</strong> If you tap “Try sample content”, the app downloads a sample playlist of freely licensed films and music from GitHub Pages (comtail.github.io) and adds it as a source. Preview images also come from comtail.github.io; video and audio files come from github.com, redirected to release-assets.githubusercontent.com or objects.githubusercontent.com. All of these servers are operated by GitHub, Inc. (privacy statement: docs.github.com/site-policy/privacy-policies) and receive your IP address, the app identifier and the requested address. Nothing is loaded without that tap. You can remove the sample source like any other source.</p>
-<h2>4. External players</h2>
+<h2 id="qr">4. Input via smartphone (QR code, optional)</h2>
+<p>In the TV app you can enter playlist addresses and credentials on your smartphone. The TV shows a QR code; scanning it opens an input page at emotion-qr.emotionplayer.workers.dev on your phone. This relay service is operated by Corevant Software on Cloudflare Workers, provided by Cloudflare, Inc., 101 Townsend St., San Francisco, CA 94107, USA, acting as our processor.</p>
+<p>Your input is encrypted on your phone (AES-GCM). The key is contained only in the QR code and is never sent to the server. The service therefore only receives and stores a random code and the encrypted content; neither Corevant Software nor Cloudflare can read it. The TV retrieves the data once, after which it is deleted, at the latest after 10 minutes.</p>
+<p>To deliver the page and protect against abuse, Cloudflare technically processes connection data such as the IP addresses of the TV and phone, time, requested address and browser identifier. We have disabled the service’s own request logs. The input page uses no cookies, analytics or tracking. No connection to this service is made unless you use “Enter with phone”.</p>
+<p>The legal basis is Art. 6(1)(b) GDPR (providing the function you requested) and, for security processing, Art. 6(1)(f) GDPR (legitimate interest in secure operation). Data may be transferred to the USA; Cloudflare, Inc. is certified under the EU-U.S. Data Privacy Framework, and the European Commission’s Standard Contractual Clauses apply in addition. More information: www.cloudflare.com/privacypolicy.</p>
+<h2>5. External players</h2>
 <p>When you select another installed player, the app may pass the media URL and title to that app. Xtream stream URLs can contain credentials. The external player may process or retain these details. A warning before sensitive transfers is part of the final release verification.</p>
-<h2>5. Accounts, analytics and purchases</h2>
-<p>According to the current project description, Corevant Software does not operate a media server for playback and the app has no proprietary user accounts, advertising, analytics, tracking or crash-reporting SDKs. These statements depend on verification of the final distributed build.</p>
-<p>When Google Play distributes or processes a purchase of the app, Google handles relevant data under its own privacy policy.</p>
-<h2>6. Open-source information</h2>
+<h2>6. Accounts, analytics and purchases</h2>
+<p>According to the current project description, Corevant Software does not operate a media server for playback; the only exception is the optional relay service for phone input (section 4), which carries no media. The app has no proprietary user accounts, advertising, analytics, tracking or crash-reporting SDKs. These statements depend on verification of the final distributed build.</p>
+<p>When Google Play distributes or processes a purchase of the app, Google handles relevant data under its own privacy policy. The same applies to Samsung if you obtain the app from the Samsung TV app store.</p>
+<h2>7. Open-source information</h2>
 <p>FFmpeg source and licensing materials are linked at github.com/comtail/emotion-player-ffmpeg-lgpl. Visiting GitHub is subject to GitHub&#x27;s privacy practices.</p>
-<h2>7. Legal grounds</h2>
+<h2>8. Legal grounds</h2>
 <p>Where Corevant Software is the controller, processing necessary to provide app functions or perform a contract may be based on Art. 6(1)(b) GDPR; legal obligations may be based on Art. 6(1)(c) GDPR. Necessary access to and storage of information on a device may fall under Section 25(2)(2) TDDDG. Any additional processing may require another legal basis.</p>
-<h2>8. Retention and deletion</h2>
+<h2>9. Retention and deletion</h2>
 <p>Depending on supported app controls, sources and local settings can be changed or deleted. Uninstalling the app removes ordinary local app data; device backups may be subject to separate operating-system and app configurations, which must be checked before release.</p>
-<h2>9. Your rights</h2>
+<h2>10. Your rights</h2>
 <p>Subject to legal conditions, you may request access, rectification, erasure, restriction, portability or object to processing under Articles 15–21 GDPR. Contact info@corevant.de. You may lodge a complaint with a supervisory authority; the Bavarian Data Protection Authority (BayLDA) generally supervises private entities established in Bavaria.</p>
-<h2>10. Updates</h2>
+<h2>11. Updates</h2>
 <p>This policy will be updated if the app&#x27;s functionality, services or data flows change.</p>
 <p class="footer">EMOTION Player · Corevant Software · info@corevant.de</p>
 </main>
